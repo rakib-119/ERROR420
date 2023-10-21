@@ -1,0 +1,6 @@
+requests
+colorama
+humanfriendly
+PySocks
+scapy
+get_mac
