@@ -31,7 +31,7 @@ def get_socks_proxies() -> List[Dict[str, str]]:
     """
     try:
         with requests.get(
-            "socks5.txt",
+            "https://raw.githubusercontent.com/rakib-119/ERROR420-/main/socks5.txt",
             verify=False,
             timeout=10,
         ) as proxy_list:
