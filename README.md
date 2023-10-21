@@ -1,7 +1,7 @@
 <h1 align="center">📡 DoS Tool</h1> 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"> <img src="https://img.shields.io/github/forks/7zx/overload?style=social"> <img src="https://img.shields.io/github/stars/7zx/overload?style=social">
+<img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"> <img src="https://img.shields.io/github/forks/7zx/overload?style=social"> <img src="https://github.com/rakib-119/ERROR420.git?style=social">
 
 </div>
 
@@ -18,7 +18,7 @@
   <h2>Windows</h2><br>
 </div>
 
-Download Python 3.10 [here](https://www.python.org/downloads/), open the installer and click on `add python to PATH`. Next, download `overload` <a href="https://github.com/7zx/overload/archive/refs/heads/main.zip" target="blank">here</a> and open CMD or PowerShell in its directory. Now you need to create a Virtual Enviroment for the application; if you have `make` utility on your system just execute:
+Download Python 3.10 [here](https://www.python.org/downloads/), open the installer and click on `add python to PATH`. Next, download `overload` <a href="https://github.com/rakib-119/ERROR420.git" target="blank">here</a> and open CMD or PowerShell in its directory. Now you need to create a Virtual Enviroment for the application; if you have `make` utility on your system just execute:
 
   ```
   make setup
@@ -42,7 +42,7 @@ If you don't have it, then execute:
 ```
 sudo apt update
 sudo apt install python3 python3-pip git -y
-git clone https://github.com/0siam0/LOL_DOS.git
+git clone https://github.com/rakib-119/ERROR420.git
 cd LOL_DOS/
 
 make setup
@@ -60,7 +60,7 @@ make run
 pkg update
 pkg install python3 python3-pip git -y
 
-git clone https://github.com/0siam0/LOL_DOS.git
+git clone https://github.com/rakib-119/ERROR420.git
 cd LOL_DOS/
 
 pip install -r requirements.txt
@@ -84,7 +84,7 @@ python3 SIYAM.py
 │   ├───METHOD: HTTP
 │   ├───TIME: 600
 │   ├───THREADS: 800
-│   └───URL: https://github.com/0siam0/LOL_DOS.git
+│   └───URL: https://github.com/rakib-119/ERROR420.git
 ```
 
 `Slowloris`: Just like an HTTP attack, Slowloris also aims to block other users from accessing a certain resource, but it does that by connecting virtual hosts with a slow connection to the victim. The victim will eventually have a lot of slow connections open and will block new users from accessing its resources.
@@ -96,7 +96,7 @@ python3 SIYAM.py
 │   ├───TIME: 300
 │   ├───THREADS: 200
 │   ├───SLEEP TIME: 15
-│   └───URL: https://github.com/0siam0/LOL_DOS.git
+│   └───URL: https://github.com/rakib-119/ERROR420.git
 ```
 
 Both `HTTP` and `Slowloris` attacks have a proxy version. If you choose to use proxy, then the threads will initialize and connect to elite-anonymity public proxies, and if not, your IP will be used on the requests. We do not own the proxy servers and do not respond for anything that they may do (like leaking your actual IP); they are hosted by volunteers and their addresses are retrieved through the [Proxy Scrape API](https://docs.proxyscrape.com/).
